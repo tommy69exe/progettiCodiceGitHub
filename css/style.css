@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2E323F;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 0.7em 1.5em;
+    width: 100%;
+    border-radius: 2em;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
